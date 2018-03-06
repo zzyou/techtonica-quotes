@@ -7,6 +7,7 @@
     <meta name="author" content="Zhenzhen You & TaLea Carpenter & Soona Mata">
     <!-- <meta http-equiv="refresh" content="120"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Wall of Wisdom</title>
 
     <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
@@ -17,19 +18,20 @@
     </style>
     <link rel="stylesheet" type="text/css" href="./styles.css">
 
+
      <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
      <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js" integrity="sha384-feJI7QwhOS+hwpX2zkaeJQjeiwlhOP+SdQDqhgvvo1DsjtiSQByFdThsxO669S2D" crossorigin="anonymous"></script> -->
      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> 
     
   </head>
-
   <body>
     <!--Navbar-->
     <nav class="navbar navbar-inverse navbar-static-top navbar-light amber lighten-4 mb-4" role="navigation">
         <div class="container">
             <!-- Navbar brand -->
             <a class="navbar-brand" href="#">WALL OF WISDOM</a>
+
 
             <!-- Collapse button -->
             <button class="navbar-toggler pull-right hamburger" type="button" data-toggle="collapse" data-target="#navbarSupportedContent20" aria-controls="navbarSupportedContent20"
@@ -66,13 +68,30 @@
     </nav>
     <!--/.Navbar-->
     
+    <video autoplay muted loop id="myVideo">
+      <source src="wall.mp4" type="video/mp4">
+      Your browser does not support HTML5 video.
+    </video>
 
-    <div class="container-fluid">
-        <div class="content">
-            <h1>Submit your Own Advice! </h1>
-            <p>Submit Advice form goes here</p>
-            <button id="myBtn" onclick="myFunction()">Submit</button>
-        </div>
+    <div class="content">
+      <h1>Submit your Advice! </h1>
+      <form action="/action_page.php" >
+        Name:<br>
+        <input type="text" name="name" value="Your Name Here!">
+        <br><br>
+        Advice:<br>
+        <input type="text" name="advice" value="Any tips?">
+        <br><br>
+        <button id="myBtn" onclick="myFunction()">Submit</button>
+      </form>
+    </div>
+
+    <div class="footer">
+      <footer>
+        <p>Copyright Info: </p>
+        <p>Contact information: <a href="https://github.com/zzyou">
+        Zhenzhen</a>.</p>
+      </footer>
     </div>
 
     <script type= "text/javascript" src="./scripts.js">
