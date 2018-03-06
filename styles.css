@@ -5,6 +5,15 @@ body {
 }
 
 
+/* Start of Carousel of Quotes */
+.quotes {
+  height: 500px;
+  width: 400px;
+}
+/* End of Carousel of Quotes */
+
+
+/* Start of Navbar and Hamburger Icon */
 .hamburger {
   margin-top: 0.2em;
   padding-top: 0.7em;
@@ -80,14 +89,14 @@ body {
   -o-transform: rotate(-135deg);
   transform: rotate(-135deg);
 }
+/* End of Navbar and Hamburger Icon */
 
 
 
 
 
 
-
-<!--add links to node & bootstrap-->
+/* <!--add links to node & bootstrap--> */
 
 #myVideo {
     position: fixed;
@@ -123,7 +132,7 @@ body {
     border: none;
     background: #000;
     color: #fff;
-    <!--add ccursorr:pointerr? -->
+    /* <!--add ccursorr:pointerr? --> */
 }
 
 #myBtn:hover {
