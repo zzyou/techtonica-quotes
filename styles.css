@@ -7,10 +7,16 @@ body {
 
 /* Start of Carousel of Quotes */
 .quotes {
-  height: 500px;
+  height: 300px;
   width: 400px;
+  text-align: center;
+  padding: 10px;
 }
 /* End of Carousel of Quotes */
+.carousel-inner {
+  display: relative;
+  padding: 10px;
+}
 
 
 /* Start of Navbar and Hamburger Icon */
@@ -139,4 +145,8 @@ body {
     background: blue;
     color: pink;
     font: Corsiva;
+}
+.item {
+  text-align: center;
+  position: inherit;
 }
