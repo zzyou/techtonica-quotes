@@ -22,8 +22,9 @@
      <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
      <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js" integrity="sha384-feJI7QwhOS+hwpX2zkaeJQjeiwlhOP+SdQDqhgvvo1DsjtiSQByFdThsxO669S2D" crossorigin="anonymous"></script> -->
-     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> 
+     
   </head>
 
   <body>
@@ -92,20 +93,32 @@
                     <div class="carousel-inner" role="listbox">
                         <div class="item active quotes">
                           <blockquote class="blockquote">
-                          <h3>Meditate! Relaxation and self-reflection will help you focus and grow</h3>
+                            <h3>Meditate! Relaxation and self-reflection will help you focus and grow</h3>
                           </blockquote>
+                          <div class="carousel-caption">
+                              <img class="heartEmpty" src="images/heartEmpty.png" alt="like?"/>
+                              <img class="heartRed" src="images/heartRed.png" alt="like!"/>
+                          </div>
                         </div>
                         <div class="item quotes">
                           <blockquote class="blockquote">
                             <h3>Everybody has imposter syndrome, some just hide it better.</h3>
                           </blockquote>
+                          <div class="carousel-caption">
+                              <img class="heartEmpty" src="images/heartEmpty.png" alt="like?"/>
+                              <img class="heartRed" src="images/heartRed.png" alt="like!"/>
+                          </div>
                         </div>
-                            <div class="item quotes">
-                              <blockquote class="blockquote">
+                        <div class="item quotes">
+                          <blockquote class="blockquote">
                             <h3>Create the type of work culture you want</h3>
-                            </blockquote>
+                          </blockquote>
+                          <div class="carousel-caption">
+                            <img class="heartEmpty" src="images/heartEmpty.png" alt="like?"/>
+                            <img class="heartRed" src="images/heartRed.png" alt="like!"/>
+                          </div>
                         </div>
-                    </div>
+                      </div>
 
                     <!-- Controls -->
                     <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
@@ -125,24 +138,59 @@
 
     <div class="content">
       <h1>Submit your Advice! </h1>
-      <form action="/action_page.php" >
+      <form method= "post" action="/action_page.php" >
         Name:<br>
         <input type="text" name="name" value="Your Name Here!">
         <br><br>
         Advice:<br>
         <input type="text" name="advice" value="Any tips?">
         <br><br>
-        <button id="myBtn" onclick="myFunction()">Submit</button>
+        <button type="submit" id="myBtn" onclick="myFunction()">Submit</button>
       </form>
     </div>
 
-    <div class="footer">
-      <footer>
-        <p>Copyright Info: </p>
-        <p>Contact information: <a href="https://github.com/zzyou">
-        Zhenzhen</a>.</p>
-      </footer>
-    </div>
+    <footer class="container footer">
+       <div class="row">
+         <p class="col-sm-3" id="copyright" color:"pink" >&copy; 2018</p>
+         <p class="col-sm-1" color:"orange">
+           Zhenzhen:
+         </p>
+             <li class="col-sm-1">
+               <a href="https://twitter.com/zhenzhen_you" target="_blank">
+                       <img src="images/icon/twitter1.png" alt="Twitter"/></a>
+             </li>
+             <li class="col-sm-1">
+               <a href="https://github.com/zzyou" target="_blank">
+                       <img src="images/icon/github1.png" alt="GitHub"/></a>
+             </li>
+             <p class="col-sm-1">
+               TaLea:
+             </p>
+             <li class="col-sm-1">
+               <a href="https://twitter.com/TaleaCarpenter" target="_blank">
+                       <img src="images/icon/twitter1.png" alt="Twitter"/></a>
+             </li>
+             <li class="col-sm-1">
+               <a href="https://github.com/TaLeaMonet" target="_blank">
+                       <img src="images/icon/github1.png" alt="GitHub"/></a>
+             </li>
+
+             <p class="col-sm-1">
+               Soona:
+             </p>
+             <li class="col-sm-1">
+               <a href="https://twitter.com/gishtah" target="_blank">
+                       <img src="images/icon/twitter1.png" alt="Twitter"/></a>
+             </li>
+             <li class="col-sm-1">
+               <a href="https://github.com/SoonaMata" target="_blank">
+                       <img src="images/icon/github1.png" alt="GitHub"/></a>
+             </li>
+
+         </ul>
+       </div>
+     </footer>
+
 
     <script type= "text/javascript" src="./scripts.js">
     </script>
