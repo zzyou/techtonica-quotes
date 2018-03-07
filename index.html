@@ -22,10 +22,10 @@
      <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
      <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js" integrity="sha384-feJI7QwhOS+hwpX2zkaeJQjeiwlhOP+SdQDqhgvvo1DsjtiSQByFdThsxO669S2D" crossorigin="anonymous"></script> -->
-     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> 
-    
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
   </head>
-  
+
   <body>
     <!-- Start of Navbar -->
     <nav class="navbar navbar-inverse navbar-static-top navbar-light amber lighten-4 mb-4" role="navigation">
@@ -68,7 +68,7 @@
         </div>
     </nav>
     <!-- End of Navbar -->
-    
+
 
     <video autoplay muted loop id="myVideo">
       <source src="wall.mp4" type="video/mp4">
@@ -122,24 +122,59 @@
 
     <div class="content">
       <h1>Submit your Advice! </h1>
-      <form action="/action_page.php" >
+      <form method= "post" action="/action_page.php" >
         Name:<br>
         <input type="text" name="name" value="Your Name Here!">
         <br><br>
         Advice:<br>
         <input type="text" name="advice" value="Any tips?">
         <br><br>
-        <button id="myBtn" onclick="myFunction()">Submit</button>
+        <button type="submit" id="myBtn" onclick="myFunction()">Submit</button>
       </form>
     </div>
 
-    <div class="footer">
-      <footer>
-        <p>Copyright Info: </p>
-        <p>Contact information: <a href="https://github.com/zzyou">
-        Zhenzhen</a>.</p>
-      </footer>
-    </div>
+            <footer class="container footer">
+               <div class="row">
+                     <p class="col-sm-3" id="copyright" color:"pink" >&copy; 2018</p>
+                     <p class="col-sm-1" color:"orange">
+                       Zhenzhen:
+                     </p>
+                         <li class="col-sm-1">
+                           <a href="https://twitter.com/zhenzhen_you" target="_blank">
+                                   <img src="images/icon/twitter1.png" alt="Twitter"/></a>
+                         </li>
+                         <li class="col-sm-1">
+                           <a href="https://github.com/zzyou" target="_blank">
+                                   <img src="images/icon/github1.png" alt="GitHub"/></a>
+                         </li>
+                         <p class="col-sm-1">
+                           TaLea:
+                         </p>
+                         <li class="col-sm-1">
+                           <a href="https://twitter.com/TaleaCarpenter" target="_blank">
+                                   <img src="images/icon/twitter1.png" alt="Twitter"/></a>
+                         </li>
+                         <li class="col-sm-1">
+                           <a href="https://github.com/TaLeaMonet" target="_blank">
+                                   <img src="images/icon/github1.png" alt="GitHub"/></a>
+                         </li>
+
+                         <p class="col-sm-1">
+                           Soona:
+                         </p>
+                         <li class="col-sm-1">
+                           <a href="https://twitter.com/gishtah" target="_blank">
+                                   <img src="images/icon/twitter1.png" alt="Twitter"/></a>
+                         </li>
+                         <li class="col-sm-1">
+                           <a href="https://github.com/SoonaMata" target="_blank">
+                                   <img src="images/icon/github1.png" alt="GitHub"/></a>
+                         </li>
+
+                     </ul>
+               </div>
+             </footer>
+
 
     <script type= "text/javascript" src="./scripts.js">
     </script>
