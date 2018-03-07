@@ -7,10 +7,24 @@ body {
 
 /* Start of Carousel of Quotes */
 .quotes {
+<<<<<<< HEAD
   height: 300px;
   width: 400px;
   text-align: center;
   padding: 10px;
+=======
+  height: 500px;
+  width: 800px;
+}
+
+.heartEmpty, .heartRed {
+  height: 40px;
+  width: 40px;
+}
+
+.heartRed {
+  display: none;
+>>>>>>> 6838ab8783f02885c51143fe6ec1c187e7cf4263
 }
 /* End of Carousel of Quotes */
 .carousel-inner {
