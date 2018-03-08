@@ -12,7 +12,7 @@ app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
 
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({extended: false}));
+app.use(bodyParser.urlencoded({extended: true}));
 
 app.use(express.static(path.join(__dirname, 'public')));
 
@@ -46,7 +46,7 @@ app.post('/users/add', function(req, res) {
         var newUser = {
             name: req.body.name,
             quote: req.body.quote
-        }
+        };
         db.users.insert(newUser, function(err, result) {
             if (err) {
                 console.log(err);
