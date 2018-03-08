@@ -5,11 +5,11 @@ $(document).ready(function(){
 
     $('.heartEmpty').click(function() {
         $(this).toggle();
-        $('.heartRed').toggle();
+        $(this).siblings().toggle();
     });
 
     $('.heartRed').click(function() {
         $(this).toggle();
-        $('.heartEmpty').toggle();
+        $(this).siblings().toggle();
     })
 });
