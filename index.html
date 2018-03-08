@@ -16,7 +16,7 @@
     <style>
     @import url("https://fonts.googleapis.com/css?family=Open+Sans|Volkhov");
     </style>
-    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
 
 
      <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
@@ -72,7 +72,7 @@
 
 
     <video autoplay muted loop id="myVideo">
-      <source src="wall.mp4" type="video/mp4">
+      <source src="images/wall.mp4" type="video/mp4">
       Your browser does not support HTML5 video.
     </video>
 
@@ -93,7 +93,8 @@
                     <div class="carousel-inner" role="listbox">
                         <div class="item active quotes">
                           <blockquote class="blockquote">
-                            <h3>Meditate! Relaxation and self-reflection will help you focus and grow</h3>
+                            <h3>Meditate! Relaxation and self-reflection will help you focus and grow.</h3>
+                            <p>Anonymous</p>
                           </blockquote>
                           <div class="carousel-caption">
                               <img class="heartEmpty" src="images/heartEmpty.png" alt="like?"/>
@@ -103,6 +104,7 @@
                         <div class="item quotes">
                           <blockquote class="blockquote">
                             <h3>Everybody has imposter syndrome, some just hide it better.</h3>
+                            <p>Anonymous</p>
                           </blockquote>
                           <div class="carousel-caption">
                               <img class="heartEmpty" src="images/heartEmpty.png" alt="like?"/>
@@ -111,7 +113,8 @@
                         </div>
                         <div class="item quotes">
                           <blockquote class="blockquote">
-                            <h3>Create the type of work culture you want</h3>
+                            <h3>Create the type of work culture you want.</h3>
+                            <p>Anonymous</p>
                           </blockquote>
                           <div class="carousel-caption">
                             <img class="heartEmpty" src="images/heartEmpty.png" alt="like?"/>
@@ -136,16 +139,16 @@
     <!-- End of Carousel of Quotes -->
 
 
-    <div class="content">
-      <h1>Submit your Advice! </h1>
-      <form method= "post" action="/action_page.php" >
-        Name:<br>
-        <input type="text" name="name" value="Your Name Here!">
+    <div class="container content">
+      <h3>Post Your "Quote" On The WALL OF WISDOM! </h3>
+      <form method="POST" action="/users/add" >
+        <label>Name:</label><br>
+        <input type="text" name="name">
         <br><br>
-        Advice:<br>
-        <input type="text" name="advice" value="Any tips?">
+        <label>Quote:</label><br>
+        <input type="text" name="quote">
         <br><br>
-        <button type="submit" id="myBtn" onclick="myFunction()">Submit</button>
+        <button type="submit" value="Submit" id="myBtn">Post-It!</button>
       </form>
     </div>
 
@@ -157,22 +160,22 @@
          </p>
              <li class="col-sm-1">
                <a href="https://twitter.com/zhenzhen_you" target="_blank">
-                       <img src="images/icon/twitter1.png" alt="Twitter"/></a>
+                 <img src="images/twitter.png" alt="Twitter"/></a>
              </li>
              <li class="col-sm-1">
                <a href="https://github.com/zzyou" target="_blank">
-                       <img src="images/icon/github1.png" alt="GitHub"/></a>
+                 <img src="images/github.png" alt="GitHub"/></a>
              </li>
              <p class="col-sm-1">
                TaLea:
              </p>
              <li class="col-sm-1">
                <a href="https://twitter.com/TaleaCarpenter" target="_blank">
-                       <img src="images/icon/twitter1.png" alt="Twitter"/></a>
+                 <img src="images/twitter.png" alt="Twitter"/></a>
              </li>
              <li class="col-sm-1">
                <a href="https://github.com/TaLeaMonet" target="_blank">
-                       <img src="images/icon/github1.png" alt="GitHub"/></a>
+                 <img src="images/github.png" alt="GitHub"/></a>
              </li>
 
              <p class="col-sm-1">
@@ -180,11 +183,11 @@
              </p>
              <li class="col-sm-1">
                <a href="https://twitter.com/gishtah" target="_blank">
-                       <img src="images/icon/twitter1.png" alt="Twitter"/></a>
+                       <img src="images/twitter.png" alt="Twitter"/></a>
              </li>
              <li class="col-sm-1">
                <a href="https://github.com/SoonaMata" target="_blank">
-                       <img src="images/icon/github1.png" alt="GitHub"/></a>
+                       <img src="images/github.png" alt="GitHub"/></a>
              </li>
 
          </ul>
@@ -192,7 +195,7 @@
      </footer>
 
 
-    <script type= "text/javascript" src="./scripts.js">
+    <script type= "text/javascript" src="js/scripts.js">
     </script>
 
   </body>
