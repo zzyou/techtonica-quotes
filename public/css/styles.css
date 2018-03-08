@@ -10,10 +10,18 @@ body {
   height: 500px;
   width: 800px;
 }
+.carousel-inner {
+text-align: center;
+position: relative;
+top: 200px;
+left: 100px;
+padding: 50px;
+}
 
 .heartEmpty, .heartRed {
   height: 40px;
   width: 40px;
+  float: right;
 }
 
 .heartRed {
@@ -148,4 +156,8 @@ body {
     background: blue;
     color: pink;
     font: Corsiva;
+}
+.item {
+  text-align: center;
+  position: inherit;
 }
