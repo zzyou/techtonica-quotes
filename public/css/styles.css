@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: Arial;
-  font-size: 17px;
+  /* font-size: 17px; */
 }
 
 
@@ -140,8 +140,28 @@ video {
   color: orange;
   font-weight: bold;
   width: 100%;
-  padding: 10px;
+  padding: 0px;
+  margin-top: 0%;
+}
+.about{
+  background: rgba(0, 0, 0, 0.4);
+  color: orange;
+  font-size: 19px;
+  width:100%;
+  margin-bottom: 2%;
   margin-top: 2%;
+  text-align: center;
+
+}
+pre{
+  text-align: center;
+  color: grey;
+  background:rgba(0, 0, 0, 0.7);
+  border-width: none;
+  border-color: black;
+  margin-top: 2%;
+  margin-bottom: 0%;
+
 }
 
 .footer {
