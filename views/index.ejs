@@ -29,7 +29,7 @@
                         <a class="nav-link" href="#form">Add</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#footer">Contact</a>
@@ -100,10 +100,9 @@
         </div>
     </div>
     <!-- End of Carousel of Quotes -->
-
+    <pre><h3>Post Your <b>Quote</b> on <i>The WALL OF WISDOM</i>! </h3></pre>
     <div class="container content">
-          <form id="form" method="POST" action="/users/add">
-            <h3>Post Your <b>Quote</b> on <i>The WALL OF WISDOM</i>! </h3>
+            <form id="form" method="POST" action="/users/add">
             <br>
             <label>Quote:</label><br>
             <input type="text" name="quote" cols="40"  rows="5" style="width:500px; height:90px;">
@@ -113,7 +112,12 @@
             <br><br>
             <input id= "myBtn" type="submit" value="Post-It!">
           </form>
-        </div>
+    </div>
+    <div class="about" id="about">
+        <pre><h3><b>About</b></h3></pre><br>
+        <p> This page is a place for you to add your advice for students currently enrolled in technical apprenticeships! <br>Feel free to include any anecdotes or relevant quotes  as  well!</p>
+        <br><br>
 
+    </div>
 
 <% include partials/footer %>
