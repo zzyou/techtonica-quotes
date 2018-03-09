@@ -23,7 +23,7 @@
                 <!-- Links -->
                 <ul class="nav navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Quotes<span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#" >Quotes<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Add</a>
@@ -43,10 +43,11 @@
     <!-- End of Navbar -->
 
 
-    <video autoplay muted loop id="myVideo">
+    <video loop  autoplay muted id="myVideo">
       <source src="images/wall.mp4" type="video/mp4">
       Your browser does not support HTML5 video.
     </video>
+
 
 
     <!-- Start of Carousel of Quotes -->
@@ -105,18 +106,17 @@
 
 
     <div class="container content">
-      <h3>Post Your "Quote" On The WALL OF WISDOM! </h3>
-
       <form method="POST" action="/users/add">
+        <h3>Post Your <b>Quote</b> on <i>The WALL OF WISDOM</i>! </h3>
+        <br>
+        <label>Quote:</label><br>
+        <input type="text" name="quote" cols="40"  rows="5" style="width:500px; height:90px;">
+        <br><br>
         <label>Name:</label><br>
         <input type="text" name="name">
         <br><br>
-        <label>Quote:</label><br>
-        <input type="text" name="quote">
-        <br><br>
-        <input type="submit" value="Post-It!">
+        <input id= "myBtn" type="submit" value="Post-It!">
       </form>
-
     </div>
 
 <% include partials/footer %>

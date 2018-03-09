@@ -19,10 +19,11 @@
     "mongodb"
   ],
   "dependencies": {
-    "express": "*",
-    "ejs": "^2.5.7",
     "body-parser": "*",
-    "express-validator": "^5.0.2"
+    "ejs": "^2.5.7",
+    "express": "*",
+    "express-validator": "^5.0.2",
+    "mongojs": "^2.5.0"
   },
   "author": "Zhenzhen TaLea Soona",
   "license": "Apache-2.0",
