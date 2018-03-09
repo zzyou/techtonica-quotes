@@ -9,21 +9,21 @@ HTML, CSS, Bootstrap, jQuery, Node, Express and MongoDB.
 
 <h3>About: </h3>
 
-‘Wall of Wisdom’ is a website that provides technical and motivational advice for coders looking for guidance or a quick ‘pick me up’.
+"Wall of Wisdom" is a website that provides technical and motivational advice for coders looking for guidance or a quick "pick me up".
 
 
 <h3>1)Functions:</h3>
 
-*Ability to post ‘quotes’/advice from contributors.
-*Ability to navigate different sections of website.
-*Ability to navigate back to ‘top of page’/homescreen using the home button.
-*Ability to ‘like’ quotes/advice.
+* Ability to post quotes/advice from contributors.
+* Ability to navigate different sections of website.
+* Ability to navigate back to "top of page"/homescreen using the home button.
+* Ability to "like" quotes/advice.
 
 
 <h3>2)Navigation Bar:</h3>
 
-* Page title should be a clickable link and allow users to be redirected back to ‘top of page’. 
-* Page Title: ‘Wall of Wisdom’.
+* Page title should be a clickable link and allow users to be redirected back to "top of page". 
+* Page Title: "Wall of Wisdom".
 
 * Hamburger menu: dropdown menu (for mobile phone) that allows users to navigate different sections of the page. 
 * Hover effect that enlarges text when each section in nav bar is hovered over.
@@ -33,10 +33,10 @@ HTML, CSS, Bootstrap, jQuery, Node, Express and MongoDB.
 * Within this div there will be a heart-shaped button positioned below it.
 
 * Under this there will be an input form that allows users to add their own advice or favorite quotes. 
-* A ‘submit’ button will be included to allow users to submit their content.
+* A "submit" button will be included to allow users to submit their content.
 
 * About section will be between form and footer.
-* The footer will include a ‘copy-right’ and Github/Twitter links/names of authors.
+* The footer will include a "copy-right" and Github/Twitter links/names of authors.
 
 
 
@@ -50,8 +50,8 @@ HTML, CSS, Bootstrap, jQuery, Node, Express and MongoDB.
 
 
 <h3>
-  <a href=""https://choosealicense.com/licenses/apache-2.0/ target="_blank">
-    Apache License 2.0
+  <a href="https://choosealicense.com/licenses/apache-2.0/" target="_blank">
+    Apache-2.0
   </a>
 </h3>
 <p>
