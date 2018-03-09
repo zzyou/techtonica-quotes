@@ -1,10 +1,10 @@
 <% include partials/header %>
 
     <!-- Start of Navbar -->
-    <nav class="navbar navbar-inverse navbar-static-top navbar-light amber lighten-4 mb-4" role="navigation">
+    <nav id="top-navbar" class="navbar navbar-inverse navbar-static-top navbar-light amber lighten-4 mb-4" role="navigation">
         <div class="container">
             <!-- Navbar brand -->
-            <a class="navbar-brand" href="#">WALL OF WISDOM</a>
+            <a class="navbar-brand" href="#top-navbar">WALL OF WISDOM</a>
 
 
             <!-- Collapse button -->
@@ -23,16 +23,16 @@
                 <!-- Links -->
                 <ul class="nav navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Quotes<span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#carousel-slides">Quotes<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Add</a>
+                        <a class="nav-link" href="#form">Add</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#footer">Contact</a>
                     </li>
                 </ul>
                 <!-- Links -->
@@ -63,22 +63,24 @@
                     </ol>
 
                     <!-- Wrapper for slides -->
-                    <div class="carousel-inner" role="listbox">
-                        <div class="item active quotes">
+                    <div id="carousel-slides" class="carousel-inner" role="listbox">
+                        <div class="item active quotes center-block text-justified">
                             <h1><%= users[users.length-1].quote %></h1>
                             <p><%= users[users.length-1].name %></p>
+                            <br>
                             <div>
-                                <img class="heartEmpty" src="images/heartEmpty.png" alt="like?"/>
-                                <img class="heartRed" src="images/heartRed.png" alt="like!"/>
+                                <img class="heartEmpty pull-right" src="images/heartEmpty.png" alt="like?"/>
+                                <img class="heartRed pull-right" src="images/heartRed.png" alt="like!"/>
                             </div>
                         </div>
                         <% for (let i = users.length-2; i >= 0 && i >= users.length-5; i--) { %>
-                            <div class="item quotes">
+                            <div class="item quotes center-block text-justified">
                                 <h1><%= users[i].quote %></h1>
                                 <p><%= users[i].name %></p>
+                                <br>
                                 <div>
-                                    <img class="heartEmpty" src="images/heartEmpty.png" alt="like?"/>
-                                    <img class="heartRed" src="images/heartRed.png" alt="like!"/>
+                                    <img class="heartEmpty pull-right" src="images/heartEmpty.png" alt="like?"/>
+                                    <img class="heartRed pull-right" src="images/heartRed.png" alt="like!"/>
                                 </div>
                             </div>
                         <% } %>
@@ -100,7 +102,7 @@
     <!-- End of Carousel of Quotes -->
 
     <div class="container content">
-          <form method="POST" action="/users/add">
+          <form id="form" method="POST" action="/users/add">
             <h3>Post Your <b>Quote</b> on <i>The WALL OF WISDOM</i>! </h3>
             <br>
             <label>Quote:</label><br>

@@ -7,21 +7,20 @@ body {
 
 /* Start of Carousel of Quotes */
 .quotes {
-  height: 500px;
-  width: 600px;
+  height: 85%;
+  width: 71%;
+  padding-top: 25%;
+  padding-bottom: 30%;
 }
+
 .carousel-inner {
-text-align: center;
-position: relative;
-top: 200px;
-left: 200px;
-padding: 50px;
+  text-align: center;
+  position: relative;
 }
 
 .heartEmpty, .heartRed {
   height: 40px;
   width: 40px;
-  float: right;
 }
 
 img {
@@ -135,13 +134,14 @@ video {
 }
 
 .content {
-    position:relative;
-    /* bottom: 70px; */
-    background: rgba(0, 0, 0, 0.3);
-    color: orange;
-    font-weight: bold;
-    width: 100%;
-    padding: 10px;
+  position:relative;
+  /* bottom: 70px; */
+  background: rgba(0, 0, 0, 0.3);
+  color: orange;
+  font-weight: bold;
+  width: 100%;
+  padding: 10px;
+  margin-top: 2%;
 }
 
 .footer {
@@ -150,14 +150,15 @@ video {
   background: rgba(0, 0, 0, 0.5);
   color: #f1f1f1;
   width: 100%;
-  padding: 0px;
+  margin-bottom: 2%;
+  margin-top: 2%;
 }
 
 form {
-    display: block;
-    text-align: center;
-    line-height: 150%;
-    font-size: 20px;
+  display: block;
+  text-align: center;
+  line-height: 150%;
+  font-size: 20px;
 }
 
 
@@ -175,6 +176,7 @@ form {
   color: pink;
   font: Corsiva;
 }
+
 .item {
   text-align: center;
   position: inherit;
