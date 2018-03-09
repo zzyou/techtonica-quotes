@@ -12,7 +12,7 @@ HTML, CSS, Bootstrap, jQuery, Node, Express and MongoDB.
 "Wall of Wisdom" is a website that provides technical and motivational advice for coders looking for guidance or a quick "pick me up".
 
 
-<h3>1)Functions:</h3>
+<h3>1) Functions:</h3>
 
 * Ability to post quotes/advice from contributors.
 * Ability to navigate different sections of website.
@@ -20,7 +20,7 @@ HTML, CSS, Bootstrap, jQuery, Node, Express and MongoDB.
 * Ability to "like" quotes/advice.
 
 
-<h3>2)Navigation Bar:</h3>
+<h3>2) Navigation Bar:</h3>
 
 * Page title should be a clickable link and allow users to be redirected back to "top of page". 
 * Page Title: "Wall of Wisdom".
