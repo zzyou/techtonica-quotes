@@ -1,7 +1,7 @@
 <% include partials/header %>
 
     <!-- Start of Navbar -->
-    <nav id="top-navbar" class="navbar-fixed-top navbar navbar-inverse navbar-static-top navbar-light amber lighten-4 mb-4" role="navigation">
+    <nav id="top-navbar" class="navbar-fixed-top navbar navbar-inverse navbar-light amber lighten-4 mb-4" role="navigation">
         <div class="container">
             <!-- Navbar brand -->
             <a class="navbar-brand" href="#top-navbar">WALL OF WISDOM</a>
@@ -21,7 +21,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent20">
 
                 <!-- Links -->
-                <ul class="nav navbar-nav mr-auto">
+                <ul class="nav navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link" href="#carousel-slides">Quotes<span class="sr-only">(current)</span></a>
                     </li>
@@ -50,7 +50,7 @@
 
 
     <!-- Start of Carousel of Quotes -->
-    <div class="container">
+    <div id="carousel-container" class="container">
         <div class="row">
             <div class="col-md-12">
                 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -100,6 +100,7 @@
         </div>
     </div>
     <!-- End of Carousel of Quotes -->
+
     <pre><h3>Post Your <b>Quote</b> on <i>The WALL OF WISDOM</i>! </h3></pre>
     <div class="container content">
             <form id="form" method="POST" action="/users/add">
@@ -113,6 +114,7 @@
             <input id= "myBtn" type="submit" value="Post-It!">
           </form>
     </div>
+
     <div class="about" id="about">
         <pre><h3><b>About</b></h3></pre><br>
         <p> This page is a place for you to add your advice for students currently enrolled in technical apprenticeships! <br>Feel free to include any anecdotes or relevant quotes  as  well!</p>

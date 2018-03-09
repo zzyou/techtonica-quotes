@@ -39,7 +39,7 @@ var users = [
         name: "Anonymous",
         quote: "Create the type of work culture you want."
     }
-]
+];
 
 app.get('/', function(req, res) {
     db.users.find(function(err, docs) {

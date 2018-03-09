@@ -7,13 +7,12 @@ $(document).ready(function(){
         $(this).css("font-size", "20px");
     });
 
-
     $('.nav-link')
       .mouseenter(function() {
         $(this).css("font-size", "20px");
       })
       .mouseleave(function() {
-        $(this).css("font-size", "12px");
+        $(this).css("font-size", "15px");
       });
 
     $('.animated-icon1,.animated-icon3,.animated-icon4').click(function(){
