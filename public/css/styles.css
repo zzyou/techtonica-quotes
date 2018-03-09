@@ -135,11 +135,13 @@ video {
 }
 
 .content {
-  position: relative;
-  background: rgba(0, 0, 0, 0.5);
-  color: grey;
-  width: 100%;
-  padding: 10px;
+    position:relative;
+    /* bottom: 70px; */
+    background: rgba(0, 0, 0, 0.3);
+    color: orange;
+    font-weight: bold;
+    width: 100%;
+    padding: 10px;
 }
 
 .footer {
@@ -148,15 +150,23 @@ video {
   background: rgba(0, 0, 0, 0.5);
   color: #f1f1f1;
   width: 100%;
-  padding: 0;
+  padding: 0px;
 }
+
+form {
+    display: block;
+    text-align: center;
+    line-height: 150%;
+    font-size: 20px;
+}
+
 
 #myBtn {
   width: 200px;
   font-size: 18px;
   padding: 10px;
   border: none;
-  background: #000;
+  background: orange;
   color: #fff;
 }
 
