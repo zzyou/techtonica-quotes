@@ -1,7 +1,6 @@
 body {
   margin: 0;
   font-family: Arial;
-  /* font-size: 17px; */
 }
 
 
@@ -35,6 +34,11 @@ img {
 
 
 /* Start of Navbar and Hamburger Icon */
+#carousel-container {
+  margin-top: 6%;
+}
+
+
 .hamburger {
   margin-top: 0.2em;
   padding-top: 0.7em;
