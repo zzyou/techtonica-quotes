@@ -42,21 +42,11 @@
     </nav>
     <!-- End of Navbar -->
 
-    <div class="wrap">
-        <video muted loop id="myVideo">
-            <source src="images/wall.mp4" type="video/mp4">
-        </video>
-        <div class="blurwrap">
-            <video muted loop muted id="myVideoBlur">
-                <source src="images/wall.mp4" type="video/mp4">
-            </video>
-        </div>
-    </div>
-
-    <!-- <video autoplay muted loop id="myVideo">
+    
+    <video autoplay muted loop id="myVideo">
       <source src="images/wall.mp4" type="video/mp4">
       Your browser does not support HTML5 video.
-    </video> -->
+    </video>
 
 
     <!-- Start of Carousel of Quotes -->
@@ -77,16 +67,16 @@
                         <div class="item active quotes">
                             <h1><%= users[users.length-1].quote %></h1>
                             <p><%= users[users.length-1].name %></p>
-                          <div class="carousel-caption">
-                              <img class="heartEmpty" src="images/heartEmpty.png" alt="like?"/>
-                              <img class="heartRed" src="images/heartRed.png" alt="like!"/>
-                          </div>
+                            <div>
+                                <img class="heartEmpty" src="images/heartEmpty.png" alt="like?"/>
+                                <img class="heartRed" src="images/heartRed.png" alt="like!"/>
+                            </div>
                         </div>
                         <% for (let i = users.length-2; i >= 0 && i >= users.length-5; i--) { %>
                             <div class="item quotes">
-                                        <h1><%= users[i].quote %></h1>
-                                        <p><%= users[i].name %></p>
-                                <div class="carousel-caption">
+                                <h1><%= users[i].quote %></h1>
+                                <p><%= users[i].name %></p>
+                                <div>
                                     <img class="heartEmpty" src="images/heartEmpty.png" alt="like?"/>
                                     <img class="heartRed" src="images/heartRed.png" alt="like!"/>
                                 </div>
