@@ -65,9 +65,10 @@ Enjoy!
 * The footer will include a "copy-right" and Github/Twitter links/names of authors.
 
 
+<br>
+<br>
 
-
-<p>Copyright 2018</p>
+<p><b>Copyright 2018</b></p>
 <a href="https://github.com/zzyou" target="_blank">Zhenzhen You</a>
 <br>
 <a href="https://github.com/TaLeaMonet" target="_blank">TaLea Carpenter</a>
