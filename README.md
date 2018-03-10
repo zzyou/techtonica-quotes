@@ -74,13 +74,7 @@ Enjoy!
 <a href="https://github.com/TaLeaMonet" target="_blank">TaLea Carpenter</a>
 <br>
 <a href="https://github.com/SoonaMata" target="_blank">Soona Mata</a>
-
-
-<h3>
-  <a href="https://www.apache.org/licenses/LICENSE-2.0" target="_blank">
-    Apache-2.0
-  </a>
-</h3>
+<br>
 <p>
   Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
