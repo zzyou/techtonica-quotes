@@ -11,7 +11,7 @@ HTML, CSS, Bootstrap, jQuery, Node, Express and MongoDB.
 The quotes in carousel are linked to MongoDB database. So you have to have MongoDB to set this webpage up.
 After installing MongoDB in your computer, please follow the following steps:
 
-* Step 1: In terminal, type "mongo". You should see an arrow sign > instead of a dollow sign $. Now you are in mongoDB.
+* Step 1: In terminal, type "mongo". You should see an arrow sign > instead of a dollor sign $. Now you are in mongoDB.
 * Step 2: In mongo, type "use quotesapp".
 * Step 3: In mongo, type "db.createCollection('users')".
 * Step 4: In mongo, type "db.users.insert([{name: 'My Name', quote: 'MY Quote 1'}, {name: 'My Name', quote: 'My Quote 2'}])". You can insert as many objects as you want in this 'users' array, and each object should include two keys, 'name' and 'quote'. 
