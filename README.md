@@ -21,6 +21,9 @@ Or, you can submit your quotes from the webpage after loading the webpage on loc
 
 Enjoy!
 
+<img src="public/images/webpage.png" alt="webpage-screenshot1"/>
+<img src="public/images/webpage2.png" alt="webpage-screenshot2"/>
+
 # Roadmap
 
 <h3>About: </h3>
