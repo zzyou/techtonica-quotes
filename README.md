@@ -6,7 +6,7 @@ HTML, CSS, Bootstrap, jQuery, Node, Express and MongoDB.
 # Wall of Wisdom
 # Roadmap
 
-<h3>How to Set the Webpage Up</h3>
+<h3>How to Set the Webpage Up:</h3>
 
 The quotes in carousel are linked to MongoDB database. So you have to have MongoDB to set this webpage up.
 After installing MongoDB in your computer, please follow the following steps:
