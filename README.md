@@ -7,8 +7,10 @@ HTML, CSS, Bootstrap, jQuery, Node, Express and MongoDB.
 # Roadmap
 
 <h3>How to Set the Webpage Up</h3>
+
 The quotes in carousel are linked to MongoDB database. So you have to have MongoDB to set this webpage up.
 After installing MongoDB in your computer, please follow the following steps:
+
 * Step 1: In terminal, type "mongo". You should see an arrow sign > instead of a dollow sign $. Now you are in mongoDB.
 * Step 2: In mongo, type "use quotesapp".
 * Step 3: In mongo, type "db.createCollection('users')".
@@ -17,6 +19,7 @@ Or, you can submit your quotes from the webpage after loading the webpage on loc
 * Step 5: In mongo, type "db.users.find()" to see if your quotes are stored in MongoDB database (quotesapp/users).
 * Step 6: Go back to terminal, cd to this webpage root directory, and type "node app.js".
 * Step 7: Go to your browser, type "localhost:3000", then you should see the quotes on WALL OF WISDOM.
+
 Enjoy!
 
 
