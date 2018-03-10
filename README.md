@@ -67,7 +67,7 @@ Enjoy!
 
 
 
-<h3>Copyright 2018</h3>
+<p>Copyright 2018</p>
 <a href="https://github.com/zzyou" target="_blank">Zhenzhen You</a>
 <br>
 <a href="https://github.com/TaLeaMonet" target="_blank">TaLea Carpenter</a>
