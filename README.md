@@ -4,7 +4,6 @@
 HTML, CSS, Bootstrap, jQuery, Node, Express and MongoDB.
 
 # Wall of Wisdom
-# Roadmap
 
 <h3>How to Set the Webpage Up:</h3>
 
@@ -22,7 +21,7 @@ Or, you can submit your quotes from the webpage after loading the webpage on loc
 
 Enjoy!
 
-
+# Roadmap
 
 <h3>About: </h3>
 
