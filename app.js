@@ -1,12 +1,12 @@
-var express = require('express');
-var bodyParser = require('body-parser');
-var path = require('path');
-var expressValidator = require('express-validator');
-var mongojs = require('mongojs');
+const express = require('express');
+const bodyParser = require('body-parser');
+const path = require('path');
+const expressValidator = require('express-validator');
+const mongojs = require('mongojs');
 
-var db = mongojs('quotesapp', ['users']);
+const db = mongojs('quotesapp', ['users']);
 
-var app = express();
+const app = express();
 
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
