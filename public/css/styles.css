@@ -30,6 +30,11 @@ img {
 .heartRed {
   display: none;
 }
+
+.item {
+  text-align: center;
+  position: inherit;
+}
 /* End of Carousel of Quotes */
 
 
@@ -117,7 +122,7 @@ img {
 /* End of Navbar and Hamburger Icon */
 
 
-#myVideo {
+#wall-video {
   position: fixed;
   right: 0;
   bottom: 0;
@@ -137,7 +142,7 @@ video {
   -o-filter: blur(10px);
 }
 
-.content {
+.form-content {
   position:relative;
   /* bottom: 70px; */
   background: rgba(0, 0, 0, 0.3);
@@ -147,17 +152,8 @@ video {
   padding: 0px;
   margin-top: 0%;
 }
-.about{
-  background: rgba(0, 0, 0, 0.4);
-  color: orange;
-  font-size: 19px;
-  width:100%;
-  margin-bottom: 2%;
-  margin-top: 2%;
-  text-align: center;
 
-}
-pre{
+pre {
   text-align: center;
   color: grey;
   background:rgba(0, 0, 0, 0.7);
@@ -165,7 +161,38 @@ pre{
   border-color: black;
   margin-top: 2%;
   margin-bottom: 0%;
+}
 
+form {
+  display: block;
+  text-align: center;
+  line-height: 150%;
+  font-size: 20px;
+}
+
+#submit-btn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: orange;
+  color: #fff;
+}
+
+#submit-btn:hover {
+  background: blue;
+  color: pink;
+  font: Corsiva;
+}
+
+.about {
+  background: rgba(0, 0, 0, 0.4);
+  color: orange;
+  font-size: 19px;
+  width:100%;
+  margin-bottom: 2%;
+  margin-top: 2%;
+  text-align: center;
 }
 
 .footer {
@@ -176,32 +203,4 @@ pre{
   width: 100%;
   margin-bottom: 2%;
   margin-top: 2%;
-}
-
-form {
-  display: block;
-  text-align: center;
-  line-height: 150%;
-  font-size: 20px;
-}
-
-
-#myBtn {
-  width: 200px;
-  font-size: 18px;
-  padding: 10px;
-  border: none;
-  background: orange;
-  color: #fff;
-}
-
-#myBtn:hover {
-  background: blue;
-  color: pink;
-  font: Corsiva;
-}
-
-.item {
-  text-align: center;
-  position: inherit;
 }
