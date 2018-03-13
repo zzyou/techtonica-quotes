@@ -5,7 +5,7 @@ $(document).ready(function(){
       })
       .mouseleave(function() {
         $(this).css("font-size", "20px");
-    });
+      });
 
     $('.nav-link')
       .mouseenter(function() {

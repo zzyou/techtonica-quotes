@@ -1,12 +1,12 @@
-var express = require('express');
-var bodyParser = require('body-parser');
-var path = require('path');
-var expressValidator = require('express-validator');
-var mongojs = require('mongojs');
+const express = require('express');
+const bodyParser = require('body-parser');
+const path = require('path');
+const expressValidator = require('express-validator');
+const mongojs = require('mongojs');
 
-var db = mongojs('quotesapp', ['users']);
+const db = mongojs('quotesapp', ['users']);
 
-var app = express();
+const app = express();
 
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
@@ -23,23 +23,23 @@ app.use(function(req, res, next){
 
 app.use(expressValidator());
 
-var users = [
-    {
-        id: 1,
-        name: "Anonymous",
-        quote: "Meditate! Relaxation and self-reflection will help you focus and grow."
-    },
-    {
-        id: 2,
-        name: "Anonymous",
-        quote: "Everybody has imposter syndrome, some just hide it better."
-    },
-    {
-        id: 3,
-        name: "Anonymous",
-        quote: "Create the type of work culture you want."
-    }
-];
+// var users = [
+//     {
+//         id: 1,
+//         name: "Anonymous",
+//         quote: "Meditate! Relaxation and self-reflection will help you focus and grow."
+//     },
+//     {
+//         id: 2,
+//         name: "Anonymous",
+//         quote: "Everybody has imposter syndrome, some just hide it better."
+//     },
+//     {
+//         id: 3,
+//         name: "Anonymous",
+//         quote: "Create the type of work culture you want."
+//     }
+// ];
 
 app.get('/', function(req, res) {
     db.users.find(function(err, docs) {
