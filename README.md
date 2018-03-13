@@ -8,7 +8,7 @@ HTML, CSS, Bootstrap, jQuery, Node, Express and MongoDB.
 <h3>How to Set the Webpage Up:</h3>
 
 <p>The quotes in carousel are linked to MongoDB database. So you have to have MongoDB to set this webpage up.</p>
-<p>First, please type "npm install" in your terminal, to install all the modules.</p>
+<p>First, please type "npm install" in your terminal, to install all the node_modules.</p>
 <p>Then, after installing MongoDB in your computer, please follow the following steps:</p>
 
 * Step 1: In terminal, type "mongo". You should see an arrow sign > instead of a dollar sign $. Now you are in mongoDB.
