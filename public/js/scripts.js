@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(document).ready(function() {
     $('.navbar-brand')
       .mouseenter(function() {
         $(this).css("font-size", "30px");
