@@ -1,0 +1,33 @@
+{
+  "name": "quotesapp",
+  "version": "1.0.0",
+  "description": "First group project at Techtonica",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zzyou/techtonica-quotes.git"
+  },
+  "keywords": [
+    "css",
+    "ejs",
+    "jquery",
+    "node",
+    "express",
+    "mongodb"
+  ],
+  "dependencies": {
+    "express": "*",
+    "ejs": "^2.5.7",
+    "body-parser": "*",
+    "express-validator": "^5.0.2"
+  },
+  "author": "Zhenzhen TaLea Soona",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/zzyou/techtonica-quotes/issues"
+  },
+  "homepage": "https://github.com/zzyou/techtonica-quotes#readme"
+}
