@@ -8,17 +8,17 @@ HTML, CSS, Bootstrap, jQuery, Node, Express and MongoDB.
 <h3>How to Set the Webpage Up:</h3>
 
 <p>The quotes in carousel are linked to MongoDB database. So you have to have MongoDB to set this webpage up.</p>
-<p>First, please type "npm install" in your terminal, to install all the node_modules.</p>
+<p>First, please type `npm install` in your terminal, to install all the node_modules.</p>
 <p>Then, after installing MongoDB in your computer, please follow the following steps:</p>
 
-* Step 1: In terminal, type "mongo". You should see an arrow sign > instead of a dollar sign $. Now you are in mongoDB.
-* Step 2: In mongo, type "use quotesapp".
-* Step 3: In mongo, type "db.createCollection('users')".
-* Step 4: In mongo, type "db.users.insert([{name: 'My Name', quote: 'MY Quote 1'}, {name: 'My Name', quote: 'My Quote 2'}])". You can insert as many objects as you want in this 'users' array, and each object should include two keys, 'name' and 'quote'. 
+* Step 1: In terminal, type `mongo`. You should see an arrow sign > instead of a dollar sign $. Now you are in mongoDB.
+* Step 2: In mongo, type `use quotesapp`.
+* Step 3: In mongo, type `db.createCollection('users')`.
+* Step 4: In mongo, type `db.users.insert([{name: 'My Name', quote: 'MY Quote 1'}, {name: 'My Name', quote: 'My Quote 2'}])`. You can insert as many objects as you want in this 'users' array, and each object should include two keys, 'name' and 'quote'. 
 Or, you can submit your quotes from the webpage after loading the webpage on local host as in Step 6 and Step 7.
-* Step 5: In mongo, type "db.users.find()" to see if your quotes are stored in MongoDB database (quotesapp/users).
-* Step 6: Go back to terminal, cd to this webpage root directory, and type "node app.js".
-* Step 7: Go to your browser, type "localhost:3000", then you should see the quotes on WALL OF WISDOM.
+* Step 5: In mongo, type `db.users.find()` to see if your quotes are stored in MongoDB database (quotesapp/users).
+* Step 6: Go back to terminal, cd to this webpage root directory, and type `node app.js`.
+* Step 7: Go to your browser, type `localhost:3000`, then you should see the quotes on WALL OF WISDOM.
 
 Enjoy!
 
