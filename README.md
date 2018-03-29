@@ -1,7 +1,7 @@
 # Techtonica Quotes
 ## First Group Project at Techtonica
 #### HTML, CSS, Bootstrap, jQuery, Node, Express and MongoDB.
-
+<br>
 
 # Wall of Wisdom
 
