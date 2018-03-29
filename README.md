@@ -1,15 +1,14 @@
 # Techtonica Quotes
-<h4>First Group Project at Techtonica</h4>
-<br>
-HTML, CSS, Bootstrap, jQuery, Node, Express and MongoDB.
+### First Group Project at Techtonica
+#### HTML, CSS, Bootstrap, jQuery, Node, Express and MongoDB.
 
 # Wall of Wisdom
 
-<h3>How to Set the Webpage Up:</h3>
+### How to Set the Webpage Up:
 
-<p>The quotes in carousel are linked to MongoDB database. So you have to have MongoDB to set this webpage up.</p>
-<p>First, please type `npm install` in your terminal, to install all the node_modules.</p>
-<p>Then, after installing MongoDB in your computer, please follow the following steps:</p>
+The quotes in carousel are linked to MongoDB database. So you have to have MongoDB to set this webpage up.
+- First, please type `npm install` in your terminal, to install all the node_modules.
+- Then, after installing MongoDB in your computer, please follow the following steps:
 
 * Step 1: In terminal, type `mongo`. You should see an arrow sign > instead of a dollar sign $. Now you are in mongoDB.
 * Step 2: In mongo, type `use quotesapp`.
@@ -27,12 +26,12 @@ Enjoy!
 
 # Roadmap
 
-<h3>About: </h3>
+### About:
 
 "Wall of Wisdom" is a website that provides technical and motivational advice for coders looking for guidance or a quick "pick me up".
 
 
-<h3>Functions:</h3>
+### Functions:
 
 * Ability to post quotes/advice from contributors.
 * Ability to navigate different sections of website.
@@ -40,7 +39,7 @@ Enjoy!
 * Ability to "like" quotes/advice.
 
 
-<h3>1) Navigation Bar:</h3>
+### 1) Navigation Bar:
 
 * Page title should be a clickable link and allow users to be redirected back to "top of page". 
 * Page Title: "Wall of Wisdom".
@@ -48,20 +47,20 @@ Enjoy!
 * Hamburger menu: dropdown menu (for mobile phone) that allows users to navigate different sections of the page. 
 * Hover effect that enlarges text when each section in nav bar is hovered over.
 
-<h3>2) Carousel of Quotes:</h3>
+### 2) Carousel of Quotes:
 
 * Advice/Quotes go in their own div, the background will be a video.
 * Two buttons will be placed here that allow users to shift from one quote to the next (left arrow and right arrow).
 * Within this div there will be a heart-shaped button positioned below it.
 
-<h3>3) Post-It! Form:</h3>
+### 3) Post-It! Form:
 
 * Under this there will be an input form that allows users to add their own advice or favorite quotes. 
 * A "submit" button will be included to allow users to submit their content.
 
 * About section will be between form and footer.
 
-<h3>4) Footer:</h3>
+### 4) Footer:
 
 * The footer will include a "copy-right" and Github/Twitter links/names of authors.
 
