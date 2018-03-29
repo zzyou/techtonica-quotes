@@ -29,7 +29,7 @@ Enjoy!
 
 ### About:
 
-"Wall of Wisdom" is a website that provides technical and motivational advice for coders looking for guidance or a quick "pick me up".
+* "Wall of Wisdom" is a website that provides technical and motivational advice for coders looking for guidance or a quick "pick me up".
 
 
 ### Functions:
