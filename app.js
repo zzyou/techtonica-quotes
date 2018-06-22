@@ -23,30 +23,33 @@ app.use(function(req, res, next){
 
 app.use(expressValidator());
 
-// var users = [
-//     {
-//         id: 1,
-//         name: "Anonymous",
-//         quote: "Meditate! Relaxation and self-reflection will help you focus and grow."
-//     },
-//     {
-//         id: 2,
-//         name: "Anonymous",
-//         quote: "Everybody has imposter syndrome, some just hide it better."
-//     },
-//     {
-//         id: 3,
-//         name: "Anonymous",
-//         quote: "Create the type of work culture you want."
-//     }
-// ];
+const users = [
+    {
+        id: 1,
+        name: "Anonymous",
+        quote: "Meditate! Relaxation and self-reflection will help you focus and grow."
+    },
+    {
+        id: 2,
+        name: "Anonymous",
+        quote: "Everybody has imposter syndrome, some just hide it better."
+    },
+    {
+        id: 3,
+        name: "Anonymous",
+        quote: "Create the type of work culture you want."
+    }
+];
 
 app.get('/', function(req, res) {
     db.users.find(function(err, docs) {
+        if (err) {
+            console.log(err);
+        }
         res.render('index', {
             users: docs
         });
-    })
+    });
 });
 
 app.post('/users/add', function(req, res) {
@@ -76,4 +79,4 @@ app.post('/users/add', function(req, res) {
 
 app.listen(3000, function() {
     console.log('Server Started on Port 3000...');
-})
+});

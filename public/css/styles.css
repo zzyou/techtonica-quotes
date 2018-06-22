@@ -8,7 +8,7 @@ body {
 .quotes {
   height: 85%;
   width: 71%;
-  padding-top: 25%;
+  padding-top: 27%;
   padding-bottom: 30%;
 }
 
@@ -42,7 +42,6 @@ img {
 #carousel-container {
   margin-top: 6%;
 }
-
 
 .hamburger {
   margin-top: 0.2em;
@@ -122,19 +121,7 @@ img {
 /* End of Navbar and Hamburger Icon */
 
 
-#wall-video {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-}
-
 video {
-  width: 100%;
-  position: absolute;
-  left: 0;
-  top: 0;
   z-index: -100;
   filter: blur(10px);
   -webkit-filter: blur(10px);
@@ -142,9 +129,18 @@ video {
   -o-filter: blur(10px);
 }
 
+#wall-video {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
 .form-content {
   position:relative;
-  /* bottom: 70px; */
   background: rgba(0, 0, 0, 0.3);
   color: orange;
   font-weight: bold;

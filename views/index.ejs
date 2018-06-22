@@ -1,6 +1,5 @@
 <% include partials/header %>
 
-    <!-- Start of Navbar -->
     <nav id="top-navbar" class="navbar-fixed-top navbar navbar-inverse navbar-light amber lighten-4 mb-4" role="navigation">
         <div class="container">
             <!-- Navbar brand -->
@@ -49,7 +48,6 @@
     </video>
 
 
-    <!-- Start of Carousel of Quotes -->
     <div id="carousel-container" class="container">
         <div class="row">
             <div class="col-md-12">
@@ -69,18 +67,20 @@
                             <p><%= users[users.length-1].name %></p>
                             <br>
                             <div>
-                                <img class="heartEmpty pull-right" src="images/heartEmpty.png" alt="like?"/>
-                                <img class="heartRed pull-right" src="images/heartRed.png" alt="like!"/>
+                                <img class="heartEmpty pull-right" src="images/heartEmpty.png" alt="empty heart: not like the quote"/>
+                                <img class="heartRed pull-right" src="images/heartRed.png" alt="red heart: like the quote"/>
                             </div>
                         </div>
-                        <% for (let i = users.length-2; i >= 0 && i >= users.length-5; i--) { %>
+                        <% const secondLastQuoteNum = users.length - 2; 
+                        const maxQuoteNum = users.length - 5; %>
+                        <% for (let i = secondLastQuoteNum; i >= 0 && i >= maxQuoteNum; i--) { %>
                             <div class="item quotes center-block text-justified">
                                 <h1><%= users[i].quote %></h1>
                                 <p><%= users[i].name %></p>
                                 <br>
                                 <div>
-                                    <img class="heartEmpty pull-right" src="images/heartEmpty.png" alt="like?"/>
-                                    <img class="heartRed pull-right" src="images/heartRed.png" alt="like!"/>
+                                    <img class="heartEmpty pull-right" src="images/heartEmpty.png" alt="empty heart: not like the quote"/>
+                                    <img class="heartRed pull-right" src="images/heartRed.png" alt="red heart: like the quote"/>
                                 </div>
                             </div>
                         <% } %>
@@ -106,7 +106,7 @@
         <form id="form" method="POST" action="/users/add">
             <br>
             <label>Quote:</label><br>
-            <input type="text" name="quote" cols="40"  rows="5" style="width:500px; height:90px;">
+            <input type="text" name="quote" cols="40"  rows="5" style="width: 500px; height: 90px;">
             <br><br>
             <label>Name:</label><br>
             <input type="text" name="name">
@@ -116,9 +116,11 @@
     </div>
 
     <div class="about" id="about">
-        <pre><h3><b>About</b></h3></pre><br>
-        <p> This page is a place for you to add your advice for students currently enrolled in technical apprenticeships! <br>Feel free to include any anecdotes or relevant quotes  as  well!</p>
-        <br><br>
+        <pre><h3><b>About</b></h3></pre>
+        <br>
+        <p> This page is a place for you to add your advice for students currently enrolled in technical apprenticeships! </p>
+        <p>Feel free to include any anecdotes or relevant quotes as well!</p>
+        <br>
     </div>
 
 <% include partials/footer %>
